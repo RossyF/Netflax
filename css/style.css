@@ -1,0 +1,87 @@
+.container {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://www.numerama.com/wp-content/uploads/2017/05/netflix.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 100px 100px 800px 0;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    margin: 30px;
+    border-radius: 3px;
+    background: red;
+    color: white;
+    font-family: "calibri";
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    font-family: "calibri";
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 27px;
+    text-decoration: bold;
+    font-family: "calibri";
+    text-align: center;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 400px;
+    height: 51px;
+    margin: 16px;
+    display: inline-block;
+}
+
+button {
+    width: 400px;
+    height: 57px;
+    margin: -15px;
+    background: red;
+    display: inline-block;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
